@@ -24,9 +24,9 @@ Kemudian mengambil data dari sumbernya. Pada project ini, data teks ecommerce di
 
 Data mentah ini terdiri 50245 baris dan memiliki 4 kategori yang biasa ada di ecommerce, yaitu:
 1. household (barang rumah tangga)
-2. clothing & accessories
-3. books
-4. electronics
+2. clothing & accessories (pakaian & aksesoris)
+3. books (buku)
+4. electronics (barang elektronik)
 
 ### 2. Data Cleansing.
 Proses membersihkan data dari semua kesalahan-kesalahan yang mungkin terjadi, termasuk kesalahan dalam penginputan data, duplikat, atau data yang tidak valid.
