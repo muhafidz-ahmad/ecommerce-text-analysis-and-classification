@@ -41,8 +41,11 @@ Tindakan yang digunakan untuk mempersiapkan teks agar dapat digunakan dalam anal
 ### 4. Exploratory Data Analysis (EDA)
 Di tahap ini, akan dilakukan analisis data teks.
 Pertama akan dilihat sebaran jumlah data pada tiap label.
+
 ![image](https://user-images.githubusercontent.com/115754250/211972088-2dc96208-38f1-4b77-a26d-166b1cbc0a0f.png)
+
 Kemudian akan diperiksa statistika jumlah kata pada tiap label baik sebelum preprocessing maupun setelah preprocessing.
+
 ![image](https://user-images.githubusercontent.com/115754250/211972279-9407d984-da6c-45fe-9726-534d5bc49a51.png)
 ![image](https://user-images.githubusercontent.com/115754250/211972320-5424ef99-96b6-4a24-8c3e-02b3dd88c4bc.png)
 ![image](https://user-images.githubusercontent.com/115754250/211972358-a144ae28-628f-4a04-887e-b7e45d1be94e.png)
@@ -50,7 +53,9 @@ Kemudian akan diperiksa statistika jumlah kata pada tiap label baik sebelum prep
 Selanjutnya akan dibuat visualisasi word cloud.
 
 Visualisasi word cloud adalah sebuah representasi grafis dari kata-kata yang muncul dalam suatu teks atau dokumen. Word cloud menunjukkan frekuensi kata-kata yang muncul dalam teks dengan menggunakan ukuran font yang berbeda. Kata-kata yang muncul lebih sering ditampilkan dengan ukuran font yang lebih besar, sedangkan kata-kata yang muncul lebih jarang ditampilkan dengan ukuran font yang lebih kecil. Tujuan dari visualisasi word cloud ini adalah untuk memberikan gambaran umum tentang topik atau tema dari suatu teks atau dokumen.
+
 ![image](https://user-images.githubusercontent.com/115754250/211972931-5509e9da-0e93-4aca-b63f-ff03ef9fc6a0.png)
+
 Dari visualisasi di atas, terlihat:
 * pada label Household kata yang paling mencolok adalah *stainless* dan *steel*
 * pada label Books kata yang paling mencolok *book*, *author*, *review*, dan *life*
@@ -73,10 +78,13 @@ Model yang akan digunakan adalah Bidirectional LSTM dengan konfigurasi sebagai b
 * Learning rate = 0,001
 * Epochs = 10, namun jika akurasi validasi telah mencapai lebih dari 95%, proses pelatihan akan langsung berhenti
 * Batch size = 512
+
 ![image](https://user-images.githubusercontent.com/115754250/211973702-be3909a1-6913-4a00-aa6b-3d793f8cc7dc.png)
 
 Setelah akurasi validasi mencapai 95% atau lebih, proses pelatihan akan otomatis berhenti.
+
 ![image](https://user-images.githubusercontent.com/115754250/211973857-24d00d5a-48a0-4159-a028-a49027bd0f65.png)
+
 Pada project ini, diperoleh akurasi validasi sebesar **95,2%** pada epoch ke delapan.
 
 ### 7. Simpan Model
