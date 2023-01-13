@@ -30,20 +30,20 @@ Meliputi import library yang dibutuhkan seperti pandas, numpy, hingga tensorflow
 Kemudian mengambil data dari sumbernya. Pada project ini, data teks ecommerce diambil dari [kaggle](https://www.kaggle.com/datasets/saurabhshahane/ecommerce-text-classification).
 
 Data mentah ini terdiri 50245 baris dan memiliki 4 kategori yang biasa ada di ecommerce, yaitu:
-1. household (barang rumah tangga)
-2. clothing & accessories (pakaian & aksesoris)
-3. books (buku)
-4. electronics (barang elektronik)
+* household (barang rumah tangga)
+* clothing & accessories (pakaian & aksesoris)
+* books (buku)
+* electronics (barang elektronik)
 
 ### 2. Data Cleansing.
 Proses membersihkan data dari semua kesalahan-kesalahan yang mungkin terjadi, termasuk kesalahan dalam penginputan data, duplikat, atau data yang tidak valid.
 
 ### 3. Text Preprocessing
 Tindakan yang digunakan untuk mempersiapkan teks agar dapat digunakan dalam analisis atau pemrosesan. Pada project ini, terdapat 4 tindakan, yaitu:
-3.1. Case folding, yaitu mengubah semua huruf menjadi huruf kecil.
-3.2. Menghapus tanda baca.
-3.3. Menghapus stopword atau kata-kata yang sering muncul namun tidak memiliki makna yang signifikan.
-3.4. Tokenizing, yaitu memecah teks menjadi kata-kata atau token-token.
+1. Case folding, yaitu mengubah semua huruf menjadi huruf kecil.
+2. Menghapus tanda baca.
+3. Menghapus stopword atau kata-kata yang sering muncul namun tidak memiliki makna yang signifikan.
+4. Tokenizing, yaitu memecah teks menjadi kata-kata atau token-token.
 
 ### 4. Exploratory Data Analysis (EDA)
 Di tahap ini, akan dilakukan analisis data teks.
