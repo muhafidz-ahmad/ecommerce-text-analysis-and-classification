@@ -16,6 +16,13 @@ Data terdiri dari puluhan ribu teks dari ecommerce beserta label dari tiap teks 
 
 ## Tahap-Tahap Project
 Terdapat 7 tahap yang dilakukan secara garis besar pada project ini, yaitu:
+1. Persiapan package/library dan data
+2. Data Cleansing
+3. Text Preprocessing
+4. Exploratory Data Analysis (EDA)
+5. Data Splitting
+6. Pembuatan Model Machine Learning dan Evaluasi
+7. Simpan Model
 
 ### 1. Persiapan package/library dan data
 Meliputi import library yang dibutuhkan seperti pandas, numpy, hingga tensorflow.
