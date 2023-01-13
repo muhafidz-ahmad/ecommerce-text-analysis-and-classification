@@ -7,7 +7,7 @@ Di proyek ini akan dilakukan analisis data teks dari e-commerce dan membuat mode
 
 <p align="center">
   <img src="https://static.vecteezy.com/system/resources/previews/001/871/349/non_2x/illustration-of-shopping-and-spending-money-with-e-commerce-apps-own-your-own-shop-with-e-commerce-find-the-right-item-with-online-shops-landing-page-template-for-web-websites-site-banner-flyer-free-vector.jpg" alt="Ecommerce" width="500">
-  <figcaption align="center">Ecommerce (Sumber: vecteezy/naki-sama)</figcaption>
+  <figcaption align="center">Gambar ilustrasi e-commerce (Sumber: vecteezy/naki-sama)</figcaption>
 </p>
 
 Data yang digunakan pada proyek ini diperoleh dari [kaggle](https://www.kaggle.com/datasets/saurabhshahane/ecommerce-text-classification).
