@@ -96,3 +96,23 @@ Pada project ini, diperoleh akurasi validasi sebesar **95,2%** pada epoch ke del
 
 ### 7. Simpan Model
 Model disimpan dalam format model.h5 dan konversinya dalam format tensorflow.js agar bisa dilakukan deployment model ke dalam website.
+
+# THANK YOU
+<table>
+  <thead>
+    <tr>
+      <th>Sosial Media</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.linkedin.com/in/muhafidz-ahmad-halim/"><img src="https://user-images.githubusercontent.com/115754250/213965797-c07b0ad3-c5e7-4c9e-9f09-5076141f57f4.png" width="30" height="30"/></a></td>
+      <td><a href="https://www.linkedin.com/in/muhafidz-ahmad-halim/">Muhafidz Ahmad Halim</a></th>
+    </tr>
+    <tr>
+      <td><a href="https://www.instagram.com/anumuhafidz/"><img src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-png-instagram-logo-camel-productions-website-25.png" width="30" height="30"></a></td>
+      <td><a href="https://www.instagram.com/anumuhafidz/">@anumuhafidz</a></td>
+    </tr>
+  </tbody>
+</table>
